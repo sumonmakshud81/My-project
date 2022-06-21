@@ -1,0 +1,217 @@
+/*
+#about{
+    position: relative;
+}
+
+#about.dotted {
+    transform: translateY(-45px);
+    -webkit-transform: translateY(-45px);
+    -moz-transform: translateY(-45px);
+    -ms-transform: translateY(-45px);
+    -o-transform: translateY(-45px);
+}
+
+#about.dotted {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: 0;
+}*/
+
+.breadcamp {
+    background-position: center;
+    background-size: cover;
+}
+
+.breadcamp .text_typing h5 {
+    font-size: 26px;
+    margin-top: 50px;
+    font-family: 'traveling-typewriter', Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+.card {
+    padding: 13px;
+    transition: 2s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 18px 4px rgb(153 153 153 / 59%);
+    cursor: pointer;
+}
+
+.card-shadow {
+    box-shadow: 0px 0px 18px 4px rgb(153 153 153 / 59%);
+    cursor: pointer;
+}
+
+.card-shadow:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.card-parallax {
+    box-shadow: 0px 0px 18px 4px rgb(153 153 153 / 59%) !important;
+}
+
+.card-parallax:hover {
+    box-shadow: none !important;
+}
+
+.card-title a {
+    color: #000 !important;
+}
+
+.btn-warning {
+    color: #fff !important;
+    background-color: #e65f78 !important;
+    border-color: #e65f78 !important;
+}
+
+.card-text a {
+    color: #6d2f18;
+}
+
+.about_title h3 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.text p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+iframe.card {
+    border-radius: 50%;
+    height: 510px;
+}
+
+.padding1 {
+    padding: 100px;
+}
+
+.padding2 {
+    padding: 200px;
+}
+
+.about_titles h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.comments .review-box {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    min-height: 100px;
+    margin-right: 0;
+}
+
+.comment-box-tile h5:after {
+    content: "";
+    display: inline-block;
+    height: 0.7em;
+    vertical-align: bottom;
+    width: 83%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 2px solid #e0e0e0
+}
+
+.comments .rev-thumb {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 82px;
+    height: 82px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+
+.comments .rev-thumb img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+}
+
+.comments .rev-content {
+    position: relative;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.comments .rev-info {
+    padding-bottom: 15px;
+}
+
+.comments .rev-info strong {
+    font-weight: 500;
+}
+
+
+.comments .rev-reply {
+    padding-top: 15px;
+}
+
+.comments .rev-reply a {
+    color: #0078D7;
+    font-size: 14px;
+}
+
+
+.comments .rev-reply .fa {
+    font-size: 14px;
+}
+
+.sub-comment-first {
+    margin: 20px;
+}
+
+.sub-comment-second {
+    margin: 20px 50px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #692814 !important;
+    border-color: #692814 !important;
+}
+
+@media(max-width:991px) and (min-width:320px) {
+
+    .comment-box-tile h5:after {
+        width: 40%;
+    }
+
+
+    .comments .rev-thumb {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border: none !important;
+        padding: 30px 0 10px 0;
+    }
+
+    .comments .review-box {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .comments .rev-thumb img {
+        display: inline-block;
+        max-width: 82px;
+        height: auto;
+    }
+
+    .comments .rev-content {
+        border: none !important;
+    }
+
+    .arlo_tm_about {
+        margin-bottom: 65px !important;
+        padding-top: 65px!important;
+    }
+
+}
